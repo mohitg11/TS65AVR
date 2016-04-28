@@ -1,0 +1,2107 @@
+EESchema Schematic File Version 2
+LIBS:TS65-rescue
+LIBS:TS65
+LIBS:TS65-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 3
+Title "TS65"
+Date "2016-05-01"
+Rev "Rev 0.6"
+Comp "MOZ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C3
+U 1 1 4F22C5A2
+P 4550 2400
+F 0 "C3" H 4600 2500 50  0000 L CNN
+F 1 "0.1uF" H 4600 2300 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 4400 2400 50  0001 C CNN
+F 3 "" H 4550 2400 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 4550 2400 60  0001 C CNN "Description"
+F 5 "CL21B104KOANNNC" H 4550 2400 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B104KOANNNC/1276-2448-1-ND/3890534" H 4550 2400 60  0001 C CNN "URL"
+F 7 "Samsung" H 4550 2400 60  0001 C CNN "Vendor"
+	1    4550 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR06
+U 1 1 50460275
+P 4700 2750
+F 0 "#PWR06" H 4700 2750 30  0001 C CNN
+F 1 "VSS" H 4700 2680 30  0000 C CNN
+F 2 "" H 4700 2750 60  0001 C CNN
+F 3 "" H 4700 2750 60  0001 C CNN
+	1    4700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR07
+U 1 1 504603CB
+P 12400 5950
+F 0 "#PWR07" H 12400 5950 30  0001 C CNN
+F 1 "VSS" H 12400 5880 30  0000 C CNN
+F 2 "" H 12400 5950 60  0001 C CNN
+F 3 "" H 12400 5950 60  0001 C CNN
+	1    12400 5950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12950 5750
+$Comp
+L VSS #PWR08
+U 1 1 549A599B
+P 9850 7300
+F 0 "#PWR08" H 9850 7300 30  0001 C CNN
+F 1 "VSS" H 9850 7230 30  0000 C CNN
+F 2 "~" H 9850 7300 60  0000 C CNN
+F 3 "~" H 9850 7300 60  0000 C CNN
+	1    9850 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR09
+U 1 1 549A59AA
+P 9950 7300
+F 0 "#PWR09" H 9950 7300 30  0001 C CNN
+F 1 "VSS" H 9950 7230 30  0000 C CNN
+F 2 "~" H 9950 7300 60  0000 C CNN
+F 3 "~" H 9950 7300 60  0000 C CNN
+	1    9950 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 549A5A7F
+P 9900 7050
+F 0 "X1" H 9900 7200 60  0000 C CNN
+F 1 "CRYSTAL" H 10200 7000 60  0000 C CNN
+F 2 "prettylib:NX3225SA" H 9900 7050 60  0001 C CNN
+F 3 "~" H 9900 7050 60  0000 C CNN
+F 4 "Crystal 16.0000MHz 15ppm 8pF 50 Ohm" H 9900 7050 60  0001 C CNN "Description"
+F 5 "NX3225SA-16.000MHZ-STD-CSR-1 " H 9900 7050 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/NX3225SA-16.000MHZ-STD-CSR-1/644-1049-1-ND/1128921" H 9900 7050 60  0001 C CNN "URL"
+F 7 "NDK" H 9900 7050 60  0001 C CNN "Vendor"
+	1    9900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L TAC_SWITCH S1
+U 1 1 5533596A
+P 12750 5650
+F 0 "S1" H 12725 5875 50  0000 L BNN
+F 1 "TAC_SWITCH" H 12525 5450 50  0000 L BNN
+F 2 "prettylib:TACT_5.2x5.2" H 12750 5800 50  0001 C CNN
+F 3 "" H 12750 5650 60  0000 C CNN
+F 4 "Tactile Switches 50 mAmps at 12 Volts" H 12750 5650 60  0001 C CNN "Description"
+F 5 "SKQGAKE010" H 12750 5650 60  0001 C CNN "Product"
+F 6 "http://www.mouser.in/ProductDetail/ALPS/SKQGAKE010/?qs=6EGMNY9ZYDT%2FL8q647gzYA%3D%3D" H 12750 5650 60  0001 C CNN "URL"
+F 7 "Alps" H 12750 5650 60  0001 C CNN "Vendor"
+	1    12750 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 56C7D2E9
+P 6900 8550
+F 0 "R3" V 6950 8750 50  0000 C CNN
+F 1 "22" V 6900 8550 50  0000 C CNN
+F 2 "prettylib:SMD_0805" V 6800 8550 50  0001 C CNN
+F 3 "" H 6900 8550 60  0001 C CNN
+F 4 "RES SMD 22 OHM 5% 1/8W 0805" V 6900 8550 60  0001 C CNN "Description"
+F 5 "RC2012J220CS" V 6900 8550 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012J220CS/1276-5493-1-ND/3968465" V 6900 8550 60  0001 C CNN "URL"
+F 7 "Samsung" V 6900 8550 60  0001 C CNN "Vendor"
+	1    6900 8550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 56C7D2F4
+P 6900 8300
+F 0 "R4" V 6950 8500 50  0000 C CNN
+F 1 "22" V 6900 8300 50  0000 C CNN
+F 2 "prettylib:SMD_0805" V 7000 8300 50  0001 C CNN
+F 3 "" H 6900 8300 60  0001 C CNN
+F 4 "RES SMD 22 OHM 5% 1/8W 0805" V 6900 8300 60  0001 C CNN "Description"
+F 5 "RC2012J220CS" V 6900 8300 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012J220CS/1276-5493-1-ND/3968465" V 6900 8300 60  0001 C CNN "URL"
+F 7 "Samsung" V 6900 8300 60  0001 C CNN "Vendor"
+	1    6900 8300
+	0    -1   -1   0   
+$EndComp
+Text Label 7150 8300 0    60   ~ 0
+USB_D-
+$Comp
+L CT C1
+U 1 1 56C7D32B
+P 7800 8650
+F 0 "C1" H 7800 8750 40  0000 L CNN
+F 1 "1uF" H 7806 8565 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 7838 8500 30  0001 C CNN
+F 3 "" H 7800 8650 60  0000 C CNN
+F 4 "CAP CER 1UF 10V 10% X7R 0805" H 7500 8550 60  0001 C CNN "Description"
+F 5 "CL21B105KPFNNNE" H 7500 8550 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B105KPFNNNE/1276-1275-1-ND/3889361" H 7500 8550 60  0001 C CNN "URL"
+F 7 "Samsung" H 7500 8550 60  0001 C CNN "Vendor"
+	1    7800 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L IP4234CZ6 U3
+U 1 1 56C7D369
+P 5900 8450
+F 0 "U3" H 5600 8700 50  0000 L CNN
+F 1 "IP4234CZ6" H 5600 8150 50  0000 L CNN
+F 2 "prettylib:SOT457" H 5900 8450 50  0001 L CNN
+F 3 "" H 5900 8450 60  0000 C CNN
+F 4 "TVS DIODE 5.5VWM 6TSOP" H 5900 8450 60  0001 C CNN "Description"
+F 5 "IP4234CZ6" H 5900 8450 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/IP4234CZ6,125/568-5869-1-ND/2531156" H 5900 8450 60  0001 C CNN "URL"
+F 7 "NXP" H 5900 8450 60  0001 C CNN "Vendor"
+	1    5900 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 56C7D380
+P 5900 7950
+F 0 "F1" H 6000 8000 40  0000 C CNN
+F 1 "PTC FUSE" H 5800 7900 40  0000 C CNN
+F 2 "prettylib:Fuse_SMD1206" H 5900 7950 60  0001 C CNN
+F 3 "" H 5900 7950 60  0000 C CNN
+F 4 "PTC RESTTBLE 1.0A 6V CHIP 1206" H 5900 7950 60  0001 C CNN "Description"
+F 5 "0ZCJ0100FF2E" H 5900 7950 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0100FF2E/507-1806-1-ND/4156243" H 5900 7950 60  0001 C CNN "URL"
+F 7 "Bel Fuse Inc" H 5900 7950 60  0001 C CNN "Vendor"
+	1    5900 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CT C12
+U 1 1 56C7D3C2
+P 7550 8650
+F 0 "C12" H 7550 8750 40  0000 L CNN
+F 1 "10uF" H 7556 8565 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 7588 8500 30  0001 C CNN
+F 3 "" H 7550 8650 60  0000 C CNN
+F 4 "CAP CER 10UF 10V X6S 0805" H 7550 8650 60  0001 C CNN "Description"
+F 5 "CL21X106KPYNNNE" H 7550 8650 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21X106KPYNNNE/1276-3025-1-ND/3891111" H 7550 8650 60  0001 C CNN "URL"
+F 7 "Samsung" H 7550 8650 60  0001 C CNN "Vendor"
+	1    7550 8650
+	1    0    0    -1  
+$EndComp
+Text Label 7150 8550 0    60   ~ 0
+USB_D+
+$Comp
+L VSS #PWR010
+U 1 1 56C7F5DF
+P 7450 8900
+F 0 "#PWR010" H 7450 8900 30  0001 C CNN
+F 1 "VSS" H 7450 8830 30  0000 C CNN
+F 2 "" H 7450 8900 60  0000 C CNN
+F 3 "" H 7450 8900 60  0000 C CNN
+	1    7450 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP23018_SSOP U2
+U 1 1 56D8823D
+P 2350 2750
+F 0 "U2" V 2300 2725 60  0000 C BNN
+F 1 "MCP23018" V 2400 2725 60  0000 C TNN
+F 2 "prettylib:SSOP-24" H 2350 2750 60  0001 C CNN
+F 3 "" H 2350 2750 60  0000 C CNN
+F 4 "IC I/O EXPANDER I2C 16B 24SSOP" V 2350 2750 60  0001 C CNN "Description"
+F 5 "MCP23018-E/SS" V 2350 2750 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/microchip-technology/MCP23018-E%2FSS/MCP23018-E%2FSS-ND/1999506" V 2350 2750 60  0001 C CNN "URL"
+F 7 "Microchip" V 2350 2750 60  0001 C CNN "Vendor"
+	1    2350 2750
+	1    0    0    -1  
+$EndComp
+Text HLabel 3150 1950 2    60   Input ~ 0
+COL8
+Text HLabel 3150 2050 2    60   Input ~ 0
+COL9
+Text HLabel 3150 2150 2    60   Input ~ 0
+COL10
+Text HLabel 3150 2250 2    60   Input ~ 0
+COL11
+Text HLabel 3150 2350 2    60   Input ~ 0
+COL12
+Text HLabel 3150 2450 2    60   Input ~ 0
+COL13
+Text HLabel 3150 2550 2    60   Input ~ 0
+COL14
+Text HLabel 3150 2650 2    60   Input ~ 0
+COL15
+Text HLabel 3150 3350 2    60   Input ~ 0
+ROWR5
+Text HLabel 3150 2850 2    60   Input ~ 0
+COL16
+Text HLabel 3150 2950 2    60   Input ~ 0
+ROWR1
+Text HLabel 3150 3050 2    60   Input ~ 0
+ROWR2
+Text HLabel 3150 3150 2    60   Input ~ 0
+ROWR3
+Text HLabel 3150 3250 2    60   Input ~ 0
+ROWR4
+NoConn ~ 3150 3450
+NoConn ~ 3150 3550
+Text Label 1550 2200 2    60   ~ 0
+SCL_
+Text Label 1550 2300 2    60   ~ 0
+SDA_
+NoConn ~ 1550 2700
+NoConn ~ 1550 2800
+$Comp
+L VSS #PWR011
+U 1 1 56D89243
+P 1400 2550
+F 0 "#PWR011" H 1400 2550 30  0001 C CNN
+F 1 "VSS" H 1400 2480 30  0000 C CNN
+F 2 "" H 1400 2550 60  0000 C CNN
+F 3 "" H 1400 2550 60  0000 C CNN
+	1    1400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 56D8EA56
+P 950 2150
+F 0 "C6" H 850 2250 50  0000 L CNN
+F 1 "0.1uF" H 750 2050 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 800 2150 50  0001 C CNN
+F 3 "" H 950 2150 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 950 2150 60  0001 C CNN "Description"
+F 5 "CL21B104KOANNNC" H 950 2150 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B104KOANNNC/1276-2448-1-ND/3890534" H 950 2150 60  0001 C CNN "URL"
+F 7 "Samsung" H 950 2150 60  0001 C CNN "Vendor"
+	1    950  2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR012
+U 1 1 56D91204
+P 1750 4700
+F 0 "#PWR012" H 1750 4700 30  0001 C CNN
+F 1 "VSS" H 1750 4630 30  0000 C CNN
+F 2 "" H 1750 4700 60  0000 C CNN
+F 3 "" H 1750 4700 60  0000 C CNN
+	1    1750 4700
+	1    0    0    -1  
+$EndComp
+Text Label 2050 4750 2    60   ~ 0
+SCL_
+Text Label 2050 4850 2    60   ~ 0
+SDA_
+Text Label 2050 4950 2    60   ~ 0
+RGBRDIN
+$Comp
+L USB3_MICRO P3
+U 1 1 56D951DE
+P 2500 6650
+F 0 "P3" H 2450 6100 59  0000 C CNN
+F 1 "USB3_MICRO" V 2500 6650 59  0000 C CNN
+F 2 "prettylib:USB3_MICROB" H 2500 6650 60  0001 C CNN
+F 3 "" H 2500 6650 60  0000 C CNN
+F 4 "USB 3.0 Micro B Female" H 2420 6170 10  0001 L BNN "Description"
+F 5 "GSB343K33HR" H 2500 6650 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/amphenol-commercial-products/GSB343K33HR/GSB343K33HRCT-ND/2485949" H 2500 6650 60  0001 C CNN "URL"
+F 7 "Amphenol" H 2500 6650 60  0001 C CNN "Vendor"
+	1    2500 6650
+	1    0    0    -1  
+$EndComp
+Text Label 2200 6300 2    60   ~ 0
+SCL_
+Text Label 2200 6400 2    60   ~ 0
+SDA_
+$Comp
+L VSS #PWR013
+U 1 1 56D834B9
+P 1200 6650
+F 0 "#PWR013" H 1200 6650 30  0001 C CNN
+F 1 "VSS" H 1200 6580 30  0000 C CNN
+F 2 "" H 1200 6650 60  0000 C CNN
+F 3 "" H 1200 6650 60  0000 C CNN
+	1    1200 6650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2200 6500
+$Comp
+L 6PIN P5
+U 1 1 56D83879
+P 2250 4800
+F 0 "P5" H 2200 4350 59  0000 C CNN
+F 1 "6PIN" V 2000 4800 59  0000 C CNN
+F 2 "prettylib:Pin_Header_1x06" H 2250 4800 60  0001 C CNN
+F 3 "" H 2250 4800 60  0000 C CNN
+F 4 "Debug headers on right side" H 2170 4320 10  0001 L BNN "Description"
+	1    2250 4800
+	-1   0    0    -1  
+$EndComp
+Text Label 2200 6700 2    60   ~ 0
+RGBRDIN
+Text Label 2200 7000 2    60   ~ 0
+TPDATA_
+Text Label 2200 7100 2    60   ~ 0
+TPCLK_
+Text Label 10100 8650 2    60   ~ 0
+SCL
+Text Label 10100 8750 2    60   ~ 0
+SDA
+$Comp
+L VSS #PWR014
+U 1 1 56D84705
+P 9700 8900
+F 0 "#PWR014" H 9700 8900 30  0001 C CNN
+F 1 "VSS" H 9700 8830 30  0000 C CNN
+F 2 "" H 9700 8900 60  0000 C CNN
+F 3 "" H 9700 8900 60  0000 C CNN
+	1    9700 8900
+	1    0    0    -1  
+$EndComp
+Text Label 10100 9050 2    60   ~ 0
+LEDCATH
+Text Label 10100 9150 2    60   ~ 0
+RGBLDOUT
+Text Label 10100 9250 2    60   ~ 0
+TPDATA
+Text Label 10100 9350 2    60   ~ 0
+TPCLK
+Text Label 10400 9650 0    60   ~ 0
+SHDGND
+Text HLabel 1750 6700 0    60   Input ~ 0
+RGBRDIN
+Text HLabel 2050 5050 0    60   Input ~ 0
+RGBRDOUT
+$Comp
+L USB_CONN P1
+U 1 1 56E086BA
+P 4600 8450
+F 0 "P1" V 4550 8450 50  0000 C CNN
+F 1 "USB_CONN" V 4650 8450 50  0000 C CNN
+F 2 "prettylib:USB_Micro-B" H 4600 8450 60  0001 C CNN
+F 3 "" H 4600 8450 60  0000 C CNN
+F 4 "USB Micro B Female" V 4600 8450 60  0001 C CNN "Description"
+F 5 "10103594-0001LF" V 4600 8450 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/amphenol-fci/10103594-0001LF/609-4050-1-ND/2350357" V 4600 8450 60  0001 C CNN "URL"
+F 7 "Amphenol" V 4600 8450 60  0001 C CNN "Vendor"
+	1    4600 8450
+	-1   0    0    -1  
+$EndComp
+Text Label 4600 9000 3    39   ~ 0
+SHDGND
+Text HLabel 9550 9150 0    60   Input ~ 0
+RGBLDOUT
+Text Notes 1650 1650 0    118  ~ 24
+IO Expander
+Text Notes 1100 5900 0    118  ~ 24
+Interconnect to left half
+Text Notes 1600 4300 0    118  ~ 24
+Debug headers
+Text Notes 13550 6700 0    118  ~ 24
+Trackpoint (Optional)
+Text Notes 1450 1100 0    197  ~ 39
+RIGHT SIDE
+Text Notes 6000 7650 0    118  ~ 24
+USB Circuit
+Text Notes 9300 8300 0    118  ~ 24
+To right half
+NoConn ~ 5000 8550
+Text Notes 9650 5000 0    118  ~ 24
+Backlight constant \ncurrent supply
+$Comp
+L C C7
+U 1 1 56DA3935
+P 4900 2500
+F 0 "C7" H 4950 2600 50  0000 L CNN
+F 1 "0.1uF" H 4950 2400 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 4750 2500 50  0001 C CNN
+F 3 "" H 4900 2500 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 4900 2500 60  0001 C CNN "Description"
+F 5 "CL21B104KOANNNC" H 4900 2500 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B104KOANNNC/1276-2448-1-ND/3890534" H 4900 2500 60  0001 C CNN "URL"
+F 7 "Samsung" H 4900 2500 60  0001 C CNN "Vendor"
+	1    4900 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 56DA9C11
+P 13050 5400
+F 0 "R14" V 13130 5400 40  0000 C CNN
+F 1 "100k" V 13057 5401 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 12980 5400 30  0001 C CNN
+F 3 "" H 13050 5400 30  0000 C CNN
+F 4 "RES SMD 100K OHM 1% 1/8W 0805" V 13050 5400 60  0001 C CNN "Description"
+F 5 "RC2012F104CS" V 13050 5400 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F104CS/1276-3512-1-ND/3903615" V 13050 5400 60  0001 C CNN "URL"
+F 7 "Samsung" V 13050 5400 60  0001 C CNN "Vendor"
+	1    13050 5400
+	-1   0    0    1   
+$EndComp
+Text Label 5450 2800 2    60   ~ 0
+MCURST
+Text Label 13200 5650 0    60   ~ 0
+MCURST
+$Comp
+L C C13
+U 1 1 56DB3A06
+P 9550 7250
+F 0 "C13" H 9600 7350 50  0000 L CNN
+F 1 "8pF" H 9600 7150 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 9400 7250 50  0001 C CNN
+F 3 "" H 9550 7250 60  0001 C CNN
+F 4 "CAP CER 8PF 50V NP0 0805" H 9550 7250 60  0001 C CNN "Description"
+F 5 "CL21C080CBANNNC" H 9550 7250 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C080CBANNNC/1276-2556-1-ND/3890642" H 9550 7250 60  0001 C CNN "URL"
+F 7 "Samsung" H 9550 7250 60  0001 C CNN "Vendor"
+	1    9550 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR015
+U 1 1 56DB4695
+P 9550 7550
+F 0 "#PWR015" H 9550 7550 30  0001 C CNN
+F 1 "VSS" H 9550 7480 30  0000 C CNN
+F 2 "~" H 9550 7550 60  0000 C CNN
+F 3 "~" H 9550 7550 60  0000 C CNN
+	1    9550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR016
+U 1 1 56DB4718
+P 10250 7550
+F 0 "#PWR016" H 10250 7550 30  0001 C CNN
+F 1 "VSS" H 10250 7480 30  0000 C CNN
+F 2 "~" H 10250 7550 60  0000 C CNN
+F 3 "~" H 10250 7550 60  0000 C CNN
+	1    10250 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 56DB4FF9
+P 10250 7250
+F 0 "C14" H 10300 7350 50  0000 L CNN
+F 1 "8pF" H 10300 7150 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 10100 7250 50  0001 C CNN
+F 3 "" H 10250 7250 60  0001 C CNN
+F 4 "CAP CER 8PF 50V NP0 0805" H 10250 7250 60  0001 C CNN "Description"
+F 5 "CL21C080CBANNNC" H 10250 7250 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C080CBANNNC/1276-2556-1-ND/3890642" H 10250 7250 60  0001 C CNN "URL"
+F 7 "Samsung" H 10250 7250 60  0001 C CNN "Vendor"
+	1    10250 7250
+	-1   0    0    -1  
+$EndComp
+Text Label 5450 3000 2    60   ~ 0
+XTAL1
+Text Label 5450 3200 2    60   ~ 0
+XTAL2
+Text Label 5450 4100 2    60   ~ 0
+USB_D-
+Text Label 5450 4000 2    60   ~ 0
+USB_D+
+$Comp
+L C C4
+U 1 1 56DBC59F
+P 4700 3450
+F 0 "C4" H 4750 3550 50  0000 L CNN
+F 1 "0.1uF" H 4750 3350 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 4550 3450 50  0001 C CNN
+F 3 "" H 4700 3450 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 4700 3450 60  0001 C CNN "Description"
+F 5 "CL21B104KOANNNC" H 4700 3450 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B104KOANNNC/1276-2448-1-ND/3890534" H 4700 3450 60  0001 C CNN "URL"
+F 7 "Samsung" H 4700 3450 60  0001 C CNN "Vendor"
+	1    4700 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L C C2
+U 1 1 56DBEF2D
+P 4850 4200
+F 0 "C2" H 4900 4300 50  0000 L CNN
+F 1 "1uF" H 4900 4100 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 4700 4200 50  0001 C CNN
+F 3 "" H 4850 4200 60  0001 C CNN
+F 4 "CAP CER 1UF 10V X7R 0805" H 4850 4200 60  0001 C CNN "Description"
+F 5 "CL21B105KPFNNNE" H 4850 4200 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21B105KPFNNNE/1276-1275-1-ND/3889361" H 4850 4200 60  0001 C CNN "URL"
+F 7 "Samsung" H 4850 4200 60  0001 C CNN "Vendor"
+	1    4850 4200
+	0    1    -1   0   
+$EndComp
+Text HLabel 7900 4800 2    60   Input ~ 0
+LEDI1
+$Comp
+L C C5
+U 1 1 56DC5207
+P 4850 3100
+F 0 "C5" H 4900 3200 50  0000 L CNN
+F 1 "0.1uF" H 4900 3000 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 4700 3100 50  0001 C CNN
+F 3 "" H 4850 3100 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 4850 3100 60  0001 C CNN "Description"
+F 5 "CL21B104KOANNNC" H 4850 3100 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B104KOANNNC/1276-2448-1-ND/3890534" H 4850 3100 60  0001 C CNN "URL"
+F 7 "Samsung" H 4850 3100 60  0001 C CNN "Vendor"
+	1    4850 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L VSS #PWR017
+U 1 1 56DC67B7
+P 4600 4350
+F 0 "#PWR017" H 4600 4350 30  0001 C CNN
+F 1 "VSS" H 4600 4280 30  0000 C CNN
+F 2 "" H 4600 4350 60  0001 C CNN
+F 3 "" H 4600 4350 60  0001 C CNN
+	1    4600 4350
+	1    0    0    -1  
+$EndComp
+Text Label 7900 4000 0    60   ~ 0
+MISO
+Text Label 7900 4100 0    60   ~ 0
+MOSI
+Text Label 7900 4200 0    60   ~ 0
+SCLK
+$Comp
+L ISP6 P6
+U 1 1 56DCBDB6
+P 7750 10350
+F 0 "P6" H 7650 10700 60  0000 C CNN
+F 1 "ISP6" H 7650 10000 60  0000 C CNN
+F 2 "prettylib:TC2030_BIG" H 7750 10350 60  0001 C CNN
+F 3 "" H 7750 10350 60  0000 C CNN
+F 4 "ISP 6-Pin Tag-Connect" H 7750 10350 60  0001 C CNN "Description"
+F 5 "TC2030-IDC" H 7750 10350 60  0001 C CNN "Product"
+F 6 "http://www.tag-connect.com/TC2030-IDC" H 7750 10350 60  0001 C CNN "URL"
+F 7 "Tag-Connect" H 7750 10350 60  0001 C CNN "Vendor"
+	1    7750 10350
+	1    0    0    -1  
+$EndComp
+Text Label 7950 10100 0    60   ~ 0
+MISO
+Text Label 7950 10400 0    60   ~ 0
+MOSI
+Text Label 7950 10300 0    60   ~ 0
+SCLK
+$Comp
+L VSS #PWR018
+U 1 1 56DCD6EB
+P 8050 10650
+F 0 "#PWR018" H 8050 10650 30  0001 C CNN
+F 1 "VSS" H 8050 10580 30  0000 C CNN
+F 2 "" H 8050 10650 60  0001 C CNN
+F 3 "" H 8050 10650 60  0001 C CNN
+	1    8050 10650
+	1    0    0    -1  
+$EndComp
+Text Label 7950 10500 0    60   ~ 0
+MCURST
+Text Label 7900 6500 0    60   ~ 0
+SCL
+Text Label 7900 6400 0    60   ~ 0
+SDA
+$Comp
+L R R5
+U 1 1 56DD6499
+P 8350 6400
+F 0 "R5" V 8430 6400 40  0000 C CNN
+F 1 "2.2k" V 8357 6401 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 8280 6400 30  0001 C CNN
+F 3 "" H 8350 6400 30  0000 C CNN
+F 4 "RES SMD 2.2K OHM 1% 1/8W 0805" V 8350 6400 60  0001 C CNN "Description"
+F 5 "RC2012F222CS" V 8350 6400 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F222CS/1276-5290-1-ND/3968262" V 8350 6400 60  0001 C CNN "URL"
+F 7 "Samsung" V 8350 6400 60  0001 C CNN "Vendor"
+	1    8350 6400
+	0    1    -1   0   
+$EndComp
+Text HLabel 7900 5800 2    60   Input ~ 0
+LEDI2
+Text HLabel 5450 5500 0    60   Input ~ 0
+LEDI3
+Text HLabel 7900 4700 2    60   Input ~ 0
+LEDCL
+Text Label 7900 3800 0    60   ~ 0
+LEDBL
+Text Notes 7100 9800 0    118  ~ 24
+ISP Tag Connect
+Text Notes 9600 6700 0    118  ~ 24
+Crystal
+Text Notes 12400 4800 0    118  ~ 24
+MCU RESET
+Text Label 7900 3900 0    60   ~ 0
+BUZZER
+$Comp
+L SPEAKER BZ1
+U 1 1 56DD72E0
+P 12600 7300
+F 0 "BZ1" H 12500 7550 70  0000 C CNN
+F 1 "BUZZER" H 12500 7050 70  0000 C CNN
+F 2 "prettylib:BUZZER_SMT" H 12600 7300 60  0001 C CNN
+F 3 "" H 12600 7300 60  0000 C CNN
+F 4 "BUZZER MAGNETIC 3.6V 8.5MM SMD" H 12600 7300 60  0001 C CNN "Description"
+F 5 "SMT-0931-S-R" H 12600 7300 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/pui-audio-inc/SMT-0931-S-R/668-1479-1-ND/5011416" H 12600 7300 60  0001 C CNN "URL"
+F 7 "PUI Audio Inc" H 12600 7300 60  0001 C CNN "Vendor"
+	1    12600 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR019
+U 1 1 56DD7BE5
+P 12250 7650
+F 0 "#PWR019" H 12250 7650 30  0001 C CNN
+F 1 "VSS" H 12250 7580 30  0000 C CNN
+F 2 "" H 12250 7650 60  0000 C CNN
+F 3 "" H 12250 7650 60  0000 C CNN
+	1    12250 7650
+	1    0    0    -1  
+$EndComp
+Text Label 11400 7200 2    60   ~ 0
+BUZZER
+Text Notes 11200 6700 0    118  ~ 24
+Buzzer (Optional)
+Text HLabel 7900 4300 2    60   Input ~ 0
+ROWL1
+Text HLabel 7900 4200 2    60   Input ~ 0
+ROWL2
+Text HLabel 7900 4100 2    60   Input ~ 0
+ROWL3
+Text HLabel 7900 4000 2    60   Input ~ 0
+ROWL4
+Text HLabel 7900 3700 2    60   Input ~ 0
+ROWL5
+Text HLabel 4500 5300 0    60   Input ~ 0
+COL7
+Text HLabel 4500 4700 0    60   Input ~ 0
+COL1
+Text HLabel 4500 4800 0    60   Input ~ 0
+COL2
+Text HLabel 4500 4900 0    60   Input ~ 0
+COL3
+Text HLabel 4500 5000 0    60   Input ~ 0
+COL4
+Text HLabel 4500 5100 0    60   Input ~ 0
+COL5
+Text HLabel 4500 5200 0    60   Input ~ 0
+COL6
+Text Notes 11250 8300 0    118  ~ 24
+Debug headers
+$Comp
+L R R33
+U 1 1 56DA9DB7
+P 11650 7200
+F 0 "R33" V 11700 7400 50  0000 C CNN
+F 1 "100" V 11650 7200 50  0000 C CNN
+F 2 "prettylib:SMD_0805" V 11750 7200 50  0001 C CNN
+F 3 "" H 11650 7200 60  0001 C CNN
+F 4 "Samsung" V 11650 7200 60  0001 C CNN "Vendor"
+F 5 "RES SMD 100 OHM 1% 1/8W 0805" V 11650 7200 60  0001 C CNN "Description"
+F 6 "RC2012F101CS" V 11650 7200 60  0001 C CNN "Product"
+F 7 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F101CS/1276-5224-1-ND/3968196" V 11650 7200 60  0001 C CNN "URL"
+F 8 "Samsung" V 11650 7200 60  0001 C CNN "Vendor"
+	1    11650 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C8
+U 1 1 56DA78C1
+P 12050 7400
+F 0 "C8" H 12100 7500 50  0000 L CNN
+F 1 "0.1uF" H 12100 7300 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 11900 7400 50  0001 C CNN
+F 3 "" H 12050 7400 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 12050 7400 60  0001 C CNN "Description"
+F 5 "CL21B104KOANNNC" H 12050 7400 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B104KOANNNC/1276-2448-1-ND/3890534" H 12050 7400 60  0001 C CNN "URL"
+F 7 "Samsung" H 12050 7400 60  0001 C CNN "Vendor"
+	1    12050 7400
+	1    0    0    1   
+$EndComp
+Text Label 5000 8250 0    60   ~ 0
+VUSB
+Text HLabel 1750 6900 0    60   Input ~ 0
+LEDCATH_
+Text Label 10100 8950 2    60   ~ 0
+LEDAN
+Text Notes 5850 1650 0    118  ~ 24
+Microcontroller
+$Comp
+L VSS #PWR020
+U 1 1 56E05269
+P 13900 9050
+F 0 "#PWR020" H 13900 9050 30  0001 C CNN
+F 1 "VSS" H 13900 8980 30  0000 C CNN
+F 2 "" H 13900 9050 60  0000 C CNN
+F 3 "" H 13900 9050 60  0000 C CNN
+	1    13900 9050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR021
+U 1 1 56E28BC5
+P 12750 9200
+F 0 "#PWR021" H 12750 9200 30  0001 C CNN
+F 1 "VSS" H 12750 9130 30  0000 C CNN
+F 2 "" H 12750 9200 60  0000 C CNN
+F 3 "" H 12750 9200 60  0000 C CNN
+	1    12750 9200
+	0    -1   1    0   
+$EndComp
+Text Label 11450 9400 0    60   ~ 0
+SCL
+Text Label 11450 9600 0    60   ~ 0
+SDA
+Text Label 11450 8750 0    60   ~ 0
+RGBLDIN
+Text HLabel 7900 3600 2    60   Input ~ 0
+RGBLDIN
+Text Label 7900 3600 0    60   ~ 0
+RGBLDIN
+Text Label 10450 7050 0    60   ~ 0
+XTAL1
+Text Label 9350 7050 2    60   ~ 0
+XTAL2
+$Comp
+L JUMPER JP1
+U 1 1 56F1A7A6
+P 5450 7000
+F 0 "JP1" H 5450 7150 60  0000 C CNN
+F 1 "JUMPER" H 5450 6920 40  0000 C CNN
+F 2 "prettylib:JUMPER_SMD_2" H 5450 7000 60  0001 C CNN
+F 3 "" H 5450 7000 60  0000 C CNN
+F 4 "Jumper to pull down HWBE" H 5450 7000 60  0001 C CNN "Description"
+	1    5450 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR022
+U 1 1 56F1BFE6
+P 6300 7050
+F 0 "#PWR022" H 6300 7050 30  0001 C CNN
+F 1 "VSS" H 6300 6980 30  0000 C CNN
+F 2 "" H 6300 7050 60  0000 C CNN
+F 3 "" H 6300 7050 60  0000 C CNN
+	1    6300 7050
+	-1   0    0    -1  
+$EndComp
+Text Notes 5700 6900 0    59   ~ 0
+HWBE Jumper
+Text Notes 8150 6700 0    59   ~ 0
+I2C Pullups
+$Comp
+L C C20_1
+U 1 1 57070D7B
+P 14450 7800
+F 0 "C20_1" V 14400 7600 40  0000 L CNN
+F 1 "2.2uF" H 14456 7715 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 14488 7650 30  0001 C CNN
+F 3 "" H 14450 7800 60  0000 C CNN
+F 4 "CAP CER 2.2UF 10V X7R 0805" H 14450 7800 60  0001 C CNN "Description"
+F 5 "CL21B225KPFNNNE" H 14450 7800 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21B225KPFNNNE/1276-1188-1-ND/3889274" H 14450 7800 60  0001 C CNN "URL"
+F 7 "Samsung" H 14450 7800 60  0001 C CNN "Vendor"
+	1    14450 7800
+	-1   0    0    1   
+$EndComp
+$Comp
+L VSS #PWR023
+U 1 1 56DD830E
+P 4500 3650
+F 0 "#PWR023" H 4500 3650 30  0001 C CNN
+F 1 "VSS" H 4500 3580 30  0000 C CNN
+F 2 "" H 4500 3650 60  0001 C CNN
+F 3 "" H 4500 3650 60  0001 C CNN
+	1    4500 3650
+	1    0    0    -1  
+$EndComp
+Text Label 5000 8350 0    60   ~ 0
+D-
+Text Label 5000 8450 0    60   ~ 0
+D+
+Text Label 11900 8950 0    60   ~ 0
+D-
+Text Label 11900 9150 0    60   ~ 0
+D+
+Text Label 12300 9250 1    60   ~ 0
+MOSI
+Text Label 12400 9250 1    60   ~ 0
+SCLK
+Text Label 12500 9250 1    60   ~ 0
+MCURST
+Text Label 12200 9250 1    60   ~ 0
+MISO
+$Comp
+L R R6
+U 1 1 56E102C8
+P 8350 6500
+F 0 "R6" V 8430 6500 40  0000 C CNN
+F 1 "2.2k" V 8357 6501 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 8280 6500 30  0001 C CNN
+F 3 "" H 8350 6500 30  0000 C CNN
+F 4 "RES SMD 2.2K OHM 1% 1/8W 0805" V 8350 6500 60  0001 C CNN "Description"
+F 5 "RC2012F222CS" V 8350 6500 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F222CS/1276-5290-1-ND/3968262" V 8350 6500 60  0001 C CNN "URL"
+F 7 "Samsung" V 8350 6500 60  0001 C CNN "Vendor"
+	1    8350 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R9
+U 1 1 56E18C9E
+P 4900 7000
+F 0 "R9" V 4980 7000 40  0000 C CNN
+F 1 "100k" V 4907 7001 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 4830 7000 30  0001 C CNN
+F 3 "" H 4900 7000 30  0000 C CNN
+F 4 "RES SMD 100K OHM 1% 1/8W 0805" V 4900 7000 60  0001 C CNN "Description"
+F 5 "RC2012F104CS" V 4900 7000 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F104CS/1276-3512-1-ND/3903615" V 4900 7000 60  0001 C CNN "URL"
+F 7 "Samsung" V 4900 7000 60  0001 C CNN "Vendor"
+	1    4900 7000
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R13_1
+U 1 1 56E2C47E
+P 14450 8700
+F 0 "R13_1" V 14530 8700 40  0000 C CNN
+F 1 "100k" V 14457 8701 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 14380 8700 30  0001 C CNN
+F 3 "" H 14450 8700 30  0000 C CNN
+F 4 "RES SMD 100K OHM 1% 1/8W 0805" V 14450 8700 60  0001 C CNN "Description"
+F 5 "RC2012F104CS" V 14450 8700 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F104CS/1276-3512-1-ND/3903615" V 14450 8700 60  0001 C CNN "URL"
+F 7 "Samsung" V 14450 8700 60  0001 C CNN "Vendor"
+	1    14450 8700
+	1    0    0    -1  
+$EndComp
+Text Label 5450 6300 2    60   ~ 0
+HWBE
+$Comp
+L VSS #PWR024
+U 1 1 56DDCCEE
+P 2350 3700
+F 0 "#PWR024" H 2350 3700 30  0001 C CNN
+F 1 "VSS" H 2350 3630 30  0000 C CNN
+F 2 "" H 2350 3700 60  0000 C CNN
+F 3 "" H 2350 3700 60  0000 C CNN
+	1    2350 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 7350
+Text Label 7900 6000 0    60   ~ 0
+TPCLK
+Text HLabel 7900 5900 2    60   Input ~ 0
+LEDI4
+$Comp
+L PAM2804 U5
+U 1 1 56E6FA49
+P 10250 5500
+F 0 "U5" H 10100 5700 60  0000 C CNN
+F 1 "PAM2804" H 10250 5300 60  0000 C CNN
+F 2 "prettylib:SOT-23-5" H 10250 5550 60  0001 C CNN
+F 3 "" H 10250 5550 60  0000 C CNN
+	1    10250 5500
+	1    0    0    -1  
+$EndComp
+Text Label 9850 5600 2    60   ~ 0
+LEDBL
+$Comp
+L VSS #PWR025
+U 1 1 56E7D654
+P 9400 5850
+F 0 "#PWR025" H 9400 5850 30  0001 C CNN
+F 1 "VSS" H 9400 5780 30  0000 C CNN
+F 2 "" H 9400 5850 60  0000 C CNN
+F 3 "" H 9400 5850 60  0000 C CNN
+	1    9400 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L2
+U 1 1 56E8A9B7
+P 10950 5400
+F 0 "L2" V 10900 5400 40  0000 C CNN
+F 1 "4.7uH" V 11050 5400 40  0000 C CNN
+F 2 "prettylib:Inductor_Bourn_4mmx4mm" H 10950 5400 60  0001 C CNN
+F 3 "" H 10950 5400 60  0000 C CNN
+F 4 "FIXED IND 4.7UH 1.9A 84 MOHM SMD" V 10950 5400 60  0001 C CNN "Description"
+F 5 "SRN4018-4R7M" V 10950 5400 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/bourns-inc/SRN4018-4R7M/SRN4018-4R7MCT-ND/3821520" V 10950 5400 60  0001 C CNN "URL"
+F 7 "Bourns Inc" V 10950 5400 60  0001 C CNN "Vendor"
+	1    10950 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CT C17
+U 1 1 56E8FD65
+P 9400 5600
+F 0 "C17" H 9400 5700 40  0000 L CNN
+F 1 "10uF" H 9406 5515 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 9438 5450 30  0001 C CNN
+F 3 "" H 9400 5600 60  0000 C CNN
+F 4 "CAP CER 10UF 10V X6S 0805" H 9400 5600 60  0001 C CNN "Description"
+F 5 "CL21X106KPYNNNE" H 9400 5600 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21X106KPYNNNE/1276-3025-1-ND/3891111" H 9400 5600 60  0001 C CNN "URL"
+F 7 "Samsung" H 9400 5600 60  0001 C CNN "Vendor"
+	1    9400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R25
+U 1 1 56E9353F
+P 11050 5600
+F 0 "R25" V 11130 5600 40  0000 C CNN
+F 1 "RLED" V 11057 5601 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 10980 5600 30  0001 C CNN
+F 3 "" H 11050 5600 30  0000 C CNN
+F 4 "Resistor to set LED current select 0.1/I" V 11050 5600 60  0001 C CNN "Description"
+F 5 "~" V 11050 5600 60  0001 C CNN "Product"
+F 6 "~" V 11050 5600 60  0001 C CNN "URL"
+F 7 "Samsung" V 11050 5600 60  0001 C CNN "Vendor"
+	1    11050 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L VSS #PWR026
+U 1 1 56E9460B
+P 11300 5850
+F 0 "#PWR026" H 11300 5850 30  0001 C CNN
+F 1 "VSS" H 11300 5780 30  0000 C CNN
+F 2 "" H 11300 5850 60  0000 C CNN
+F 3 "" H 11300 5850 60  0000 C CNN
+	1    11300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CT C18
+U 1 1 56EA05A1
+P 11450 5600
+F 0 "C18" H 11450 5700 40  0000 L CNN
+F 1 "10uF" H 11456 5515 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 11488 5450 30  0001 C CNN
+F 3 "" H 11450 5600 60  0000 C CNN
+F 4 "CAP CER 10UF 10V X6S 0805" H 11450 5600 60  0001 C CNN "Description"
+F 5 "CL21X106KPYNNNE" H 11450 5600 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21X106KPYNNNE/1276-3025-1-ND/3891111" H 11450 5600 60  0001 C CNN "URL"
+F 7 "Samsung" H 11450 5600 60  0001 C CNN "Vendor"
+	1    11450 5600
+	1    0    0    -1  
+$EndComp
+Text Label 10650 5750 0    60   ~ 0
+LEDCATH
+Text Label 11250 5300 0    60   ~ 0
+LEDAN
+Text HLabel 1750 6800 0    60   Input ~ 0
+LEDAN_
+Text HLabel 9550 8950 0    60   Input ~ 0
+LEDAN
+Text HLabel 9550 9050 0    60   Input ~ 0
+LEDCATH
+Text Label 11450 8550 0    60   ~ 0
+RGBLDOUT
+$Comp
+L USB3 P2
+U 1 1 56D844BD
+P 10400 8950
+F 0 "P2" H 10350 8400 59  0000 C CNN
+F 1 "USB3" V 10400 8950 59  0000 C CNN
+F 2 "prettylib:USB3_AFEMALE_MOD" H 10400 8950 60  0001 C CNN
+F 3 "" H 10400 8950 60  0000 C CNN
+F 4 "USB 3.0 A Female" H 10320 8470 10  0001 L BNN "Description"
+F 5 "1003-002-01100" H 10400 8950 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/cnc-tech/1003-002-01100/1175-1267-ND/3466938" H 10400 8950 60  0001 C CNN "URL"
+F 7 "CNC Tech" H 10400 8950 60  0001 C CNN "Vendor"
+	1    10400 8950
+	1    0    0    -1  
+$EndComp
+Text Notes 4300 3850 1    59   ~ 0
+Decoupling capacitors
+$Comp
+L R R28_1
+U 1 1 56F41762
+P 14200 7850
+F 0 "R28_1" V 14280 7850 40  0000 C CNN
+F 1 "4.7k" V 14207 7851 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 14130 7850 30  0001 C CNN
+F 3 "" H 14200 7850 30  0000 C CNN
+F 4 "RES SMD 4.7K OHM 1% 1/8W 0805" V 14200 7850 60  0001 C CNN "Description"
+F 5 "RC2012F472CS" V 14200 7850 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F472CS/1276-5308-1-ND/3968280" V 14200 7850 60  0001 C CNN "URL"
+F 7 "Samsung" V 14200 7850 60  0001 C CNN "Vendor"
+	1    14200 7850
+	1    0    0    1   
+$EndComp
+Text Label 13900 8300 2    60   ~ 0
+TPDATA
+Text Label 13900 8200 2    60   ~ 0
+TPCLK
+$Comp
+L 5PIN P7_1
+U 1 1 56E0525D
+P 15100 8200
+F 0 "P7_1" H 15050 8550 60  0000 C CNN
+F 1 "5PIN" H 15050 7850 60  0000 C CNN
+F 2 "prettylib:Pin_Header_1x05" H 15100 8200 60  0001 C CNN
+F 3 "" H 15100 8200 60  0000 C CNN
+F 4 "Headers for trackpoint" H 15100 8200 60  0001 C CNN "Description"
+	1    15100 8200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R31_1
+U 1 1 56F4A3DF
+P 14050 7850
+F 0 "R31_1" V 14130 7850 40  0000 C CNN
+F 1 "4.7k" V 14057 7851 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 13980 7850 30  0001 C CNN
+F 3 "" H 14050 7850 30  0000 C CNN
+F 4 "RES SMD 4.7K OHM 1% 1/8W 0805" V 14050 7850 60  0001 C CNN "Description"
+F 5 "RC2012F472CS" V 14050 7850 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F472CS/1276-5308-1-ND/3968280" V 14050 7850 60  0001 C CNN "URL"
+F 7 "Samsung" V 14050 7850 60  0001 C CNN "Vendor"
+	1    14050 7850
+	1    0    0    -1  
+$EndComp
+Text Notes 1300 8000 0    118  ~ 24
+Trackpoint (Optional)
+$Comp
+L VSS #PWR027
+U 1 1 56F6AA7A
+P 1300 10250
+F 0 "#PWR027" H 1300 10250 30  0001 C CNN
+F 1 "VSS" H 1300 10180 30  0000 C CNN
+F 2 "" H 1300 10250 60  0000 C CNN
+F 3 "" H 1300 10250 60  0000 C CNN
+	1    1300 10250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C20_2
+U 1 1 56F6AA84
+P 2200 9000
+F 0 "C20_2" V 2150 8800 40  0000 L CNN
+F 1 "2.2uF" H 2206 8915 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 2238 8850 30  0001 C CNN
+F 3 "" H 2200 9000 60  0000 C CNN
+F 4 "CAP CER 2.2UF 10V X7R 0805" H 2200 9000 60  0001 C CNN "Description"
+F 5 "CL21B225KPFNNNE" H 2200 9000 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21B225KPFNNNE/1276-1188-1-ND/3889274" H 2200 9000 60  0001 C CNN "URL"
+F 7 "Samsung" H 2200 9000 60  0001 C CNN "Vendor"
+	1    2200 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R13_2
+U 1 1 56F6AA8E
+P 2200 9950
+F 0 "R13_2" V 2280 9950 40  0000 C CNN
+F 1 "100k" V 2207 9951 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 2130 9950 30  0001 C CNN
+F 3 "" H 2200 9950 30  0000 C CNN
+F 4 "RES SMD 100K OHM 1% 1/8W 0805" V 2200 9950 60  0001 C CNN "Description"
+F 5 "RC2012F104CS" V 2200 9950 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F104CS/1276-3512-1-ND/3903615" V 2200 9950 60  0001 C CNN "URL"
+F 7 "Samsung" V 2200 9950 60  0001 C CNN "Vendor"
+	1    2200 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R28_2
+U 1 1 56F6AA98
+P 1950 9050
+F 0 "R28_2" V 2030 9050 40  0000 C CNN
+F 1 "4.7k" V 1957 9051 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 1880 9050 30  0001 C CNN
+F 3 "" H 1950 9050 30  0000 C CNN
+F 4 "RES SMD 4.7K OHM 1% 1/8W 0805" V 1950 9050 60  0001 C CNN "Description"
+F 5 "RC2012F472CS" V 1950 9050 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F472CS/1276-5308-1-ND/3968280" V 1950 9050 60  0001 C CNN "URL"
+F 7 "Samsung" V 1950 9050 60  0001 C CNN "Vendor"
+	1    1950 9050
+	1    0    0    1   
+$EndComp
+Text Label 1300 9500 2    60   ~ 0
+TPDATA_
+Text Label 1300 9400 2    60   ~ 0
+TPCLK_
+$Comp
+L 5PIN P7_2
+U 1 1 56F6AAA7
+P 2850 9400
+F 0 "P7_2" H 2800 9750 60  0000 C CNN
+F 1 "5PIN" H 2800 9050 60  0000 C CNN
+F 2 "prettylib:Pin_Header_1x05" H 2850 9400 60  0001 C CNN
+F 3 "" H 2850 9400 60  0000 C CNN
+F 4 "Headers for trackpoint" H 2850 9400 60  0001 C CNN "Description"
+	1    2850 9400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R31_2
+U 1 1 56F6AAC5
+P 1750 9050
+F 0 "R31_2" V 1830 9050 40  0000 C CNN
+F 1 "4.7k" V 1757 9051 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 1680 9050 30  0001 C CNN
+F 3 "" H 1750 9050 30  0000 C CNN
+F 4 "RES SMD 4.7K OHM 1% 1/8W 0805" V 1750 9050 60  0001 C CNN "Description"
+F 5 "RC2012F472CS" V 1750 9050 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F472CS/1276-5308-1-ND/3968280" V 1750 9050 60  0001 C CNN "URL"
+F 7 "Samsung" V 1750 9050 60  0001 C CNN "Vendor"
+	1    1750 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R36
+U 1 1 56FBC6EE
+P 6000 7000
+F 0 "R36" V 6080 7000 40  0000 C CNN
+F 1 "1k" V 6007 7001 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 5930 7000 30  0001 C CNN
+F 3 "" H 6000 7000 30  0000 C CNN
+F 4 "RES SMD 1K OHM 1% 1/8W 0805" V 6000 7000 60  0001 C CNN "Description"
+F 5 "RC2012F102CS" V 6000 7000 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F102CS/1276-5272-1-ND/3968244" V 6000 7000 60  0001 C CNN "URL"
+F 7 "Samsung" V 6000 7000 60  0001 C CNN "Vendor"
+	1    6000 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L VSS #PWR028
+U 1 1 57098C30
+P 5050 8700
+F 0 "#PWR028" H 5050 8700 30  0001 C CNN
+F 1 "VSS" H 5050 8630 30  0000 C CNN
+F 2 "" H 5050 8700 60  0000 C CNN
+F 3 "" H 5050 8700 60  0000 C CNN
+	1    5050 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6PIN P4
+U 1 1 570C66D1
+P 12450 9450
+F 0 "P4" H 12400 9800 60  0000 C CNN
+F 1 "6PIN" H 12400 9100 60  0000 C CNN
+F 2 "prettylib:Pin_Header_1x06" H 12450 9450 60  0001 C CNN
+F 3 "" H 12450 9450 60  0000 C CNN
+	1    12450 9450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2PIN P11
+U 1 1 570C821E
+P 11700 9050
+F 0 "P11" H 11650 9250 60  0000 C CNN
+F 1 "2PIN" H 11650 8850 60  0000 C CNN
+F 2 "prettylib:Pin_Header_1x02" H 11700 9050 60  0001 C CNN
+F 3 "" H 11700 9050 60  0000 C CNN
+	1    11700 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2PIN P15
+U 1 1 570D6F21
+P 11250 9500
+F 0 "P15" H 11200 9700 60  0000 C CNN
+F 1 "2PIN" H 11200 9300 60  0000 C CNN
+F 2 "prettylib:Pin_Header_1x02" H 11250 9500 60  0001 C CNN
+F 3 "" H 11250 9500 60  0000 C CNN
+	1    11250 9500
+	1    0    0    -1  
+$EndComp
+Text Notes 9500 1100 0    197  ~ 39
+LEFT SIDE
+$Comp
+L Atmega32u4 U1
+U 1 1 571D9DC1
+P 6600 4300
+AR Path="/571D9DC1" Ref="U1"  Part="1" 
+AR Path="/549878F0/571D9DC1" Ref="U1"  Part="1" 
+F 0 "U1" H 6550 6500 50  0000 L CNN
+F 1 "Atmega32u4" H 6200 6350 50  0000 L BNN
+F 2 "prettylib:TQFP44" H 6600 4300 118 0001 C CNN
+F 3 "" H 6600 4300 118 0000 C CNN
+F 4 "IC MCU 8BIT 32KB FLASH 44TQFP" H 6600 4300 60  0001 C CNN "Description"
+F 5 "ATMEGA32U4-AU" H 6600 4300 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/atmel/ATMEGA32U4-AUR/ATMEGA32U4-AURCT-ND/3440960" H 6600 4300 60  0001 C CNN "URL"
+F 7 "Atmel" H 6600 4300 60  0001 C CNN "Vendor"
+	1    6600 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 571DAEBC
+P 5250 3500
+F 0 "C9" H 5300 3600 50  0000 L CNN
+F 1 "0.1uF" H 5300 3400 50  0000 L CNN
+F 2 "prettylib:SMD_0805" V 5100 3500 50  0001 C CNN
+F 3 "" H 5250 3500 60  0001 C CNN
+F 4 "CAP CER 0.1UF 16V 10% X7R 0805" H 5250 3500 60  0001 C CNN "Description"
+F 5 "CL21B104KOANNNC" H 5250 3500 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B104KOANNNC/1276-2448-1-ND/3890534" H 5250 3500 60  0001 C CNN "URL"
+F 7 "Samsung" H 5250 3500 60  0001 C CNN "Vendor"
+	1    5250 3500
+	0    1    -1   0   
+$EndComp
+$Comp
+L +5V #PWR029
+U 1 1 571DB52A
+P 5300 3800
+F 0 "#PWR029" H 5300 3890 20  0001 C CNN
+F 1 "+5V" H 5300 3890 30  0000 C CNN
+F 2 "" H 5300 3800 60  0000 C CNN
+F 3 "" H 5300 3800 60  0000 C CNN
+	1    5300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR030
+U 1 1 571DC250
+P 4550 2150
+F 0 "#PWR030" H 4550 2240 20  0001 C CNN
+F 1 "+5V" H 4550 2240 30  0000 C CNN
+F 2 "" H 4550 2150 60  0000 C CNN
+F 3 "" H 4550 2150 60  0000 C CNN
+	1    4550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR031
+U 1 1 571DCFDE
+P 4950 3450
+F 0 "#PWR031" H 4950 3540 20  0001 C CNN
+F 1 "+5V" H 4950 3540 30  0000 C CNN
+F 2 "" H 4950 3450 60  0000 C CNN
+F 3 "" H 4950 3450 60  0000 C CNN
+	1    4950 3450
+	1    0    0    -1  
+$EndComp
+Text Label 7900 6100 0    60   ~ 0
+TPDATA
+$Comp
+L +5V #PWR032
+U 1 1 571EEE93
+P 9400 5400
+F 0 "#PWR032" H 9400 5490 20  0001 C CNN
+F 1 "+5V" H 9400 5490 30  0000 C CNN
+F 2 "" H 9400 5400 60  0000 C CNN
+F 3 "" H 9400 5400 60  0000 C CNN
+	1    9400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR033
+U 1 1 571EEFDA
+P 13050 5150
+F 0 "#PWR033" H 13050 5240 20  0001 C CNN
+F 1 "+5V" H 13050 5240 30  0000 C CNN
+F 2 "" H 13050 5150 60  0000 C CNN
+F 3 "" H 13050 5150 60  0000 C CNN
+	1    13050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR034
+U 1 1 571EF11F
+P 8600 6400
+F 0 "#PWR034" H 8600 6490 20  0001 C CNN
+F 1 "+5V" H 8600 6490 30  0000 C CNN
+F 2 "" H 8600 6400 60  0000 C CNN
+F 3 "" H 8600 6400 60  0000 C CNN
+	1    8600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR035
+U 1 1 571EF266
+P 10100 8550
+F 0 "#PWR035" H 10100 8640 20  0001 C CNN
+F 1 "+5V" H 10100 8640 30  0000 C CNN
+F 2 "" H 10100 8550 60  0000 C CNN
+F 3 "" H 10100 8550 60  0000 C CNN
+	1    10100 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR036
+U 1 1 571EF3AD
+P 4650 7000
+F 0 "#PWR036" H 4650 7090 20  0001 C CNN
+F 1 "+5V" H 4650 7090 30  0000 C CNN
+F 2 "" H 4650 7000 60  0000 C CNN
+F 3 "" H 4650 7000 60  0000 C CNN
+	1    4650 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR037
+U 1 1 571EF4F2
+P 8200 10150
+F 0 "#PWR037" H 8200 10240 20  0001 C CNN
+F 1 "+5V" H 8200 10240 30  0000 C CNN
+F 2 "" H 8200 10150 60  0000 C CNN
+F 3 "" H 8200 10150 60  0000 C CNN
+	1    8200 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR038
+U 1 1 571EF639
+P 2200 6200
+F 0 "#PWR038" H 2200 6290 20  0001 C CNN
+F 1 "+5V" H 2200 6290 30  0000 C CNN
+F 2 "" H 2200 6200 60  0000 C CNN
+F 3 "" H 2200 6200 60  0000 C CNN
+	1    2200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR039
+U 1 1 571EF780
+P 2050 4550
+F 0 "#PWR039" H 2050 4640 20  0001 C CNN
+F 1 "+5V" H 2050 4640 30  0000 C CNN
+F 2 "" H 2050 4550 60  0000 C CNN
+F 3 "" H 2050 4550 60  0000 C CNN
+	1    2050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR040
+U 1 1 571EF8C5
+P 1550 1950
+F 0 "#PWR040" H 1550 2040 20  0001 C CNN
+F 1 "+5V" H 1550 2040 30  0000 C CNN
+F 2 "" H 1550 1950 60  0000 C CNN
+F 3 "" H 1550 1950 60  0000 C CNN
+	1    1550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR041
+U 1 1 571F0327
+P 14200 7500
+F 0 "#PWR041" H 14200 7590 20  0001 C CNN
+F 1 "+5V" H 14200 7590 30  0000 C CNN
+F 2 "" H 14200 7500 60  0000 C CNN
+F 3 "" H 14200 7500 60  0000 C CNN
+	1    14200 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR042
+U 1 1 571F06F8
+P 1950 8700
+F 0 "#PWR042" H 1950 8790 20  0001 C CNN
+F 1 "+5V" H 1950 8790 30  0000 C CNN
+F 2 "" H 1950 8700 60  0000 C CNN
+F 3 "" H 1950 8700 60  0000 C CNN
+	1    1950 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR043
+U 1 1 571F3A2A
+P 8300 8450
+F 0 "#PWR043" H 8300 8540 20  0001 C CNN
+F 1 "+5V" H 8300 8540 30  0000 C CNN
+F 2 "" H 8300 8450 60  0000 C CNN
+F 3 "" H 8300 8450 60  0000 C CNN
+	1    8300 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG044
+U 1 1 571F3AD6
+P 8300 8450
+F 0 "#FLG044" H 8300 8545 30  0001 C CNN
+F 1 "PWR_FLAG" H 8300 8630 30  0000 C CNN
+F 2 "" H 8300 8450 60  0000 C CNN
+F 3 "" H 8300 8450 60  0000 C CNN
+	1    8300 8450
+	-1   0    0    1   
+$EndComp
+$Comp
+L +5V #PWR045
+U 1 1 571F4161
+P 12600 9250
+F 0 "#PWR045" H 12600 9340 20  0001 C CNN
+F 1 "+5V" H 12600 9340 30  0000 C CNN
+F 2 "" H 12600 9250 60  0000 C CNN
+F 3 "" H 12600 9250 60  0000 C CNN
+	1    12600 9250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12700 9200 12700 9250
+Wire Wire Line
+	12750 9200 12700 9200
+Connection ~ 5050 8650
+Wire Wire Line
+	5050 8700 5050 8650
+Wire Notes Line
+	13150 6450 13150 9750
+Wire Notes Line
+	10800 8050 9000 8050
+Wire Notes Line
+	10800 9750 10800 8050
+Wire Notes Line
+	9000 9750 10800 9750
+Wire Notes Line
+	10800 7850 9000 7850
+Wire Notes Line
+	10800 6450 10800 7850
+Wire Notes Line
+	9000 6450 10800 6450
+Wire Notes Line
+	13150 9750 15800 9750
+Wire Wire Line
+	4850 6850 5150 6850
+Wire Wire Line
+	4850 6300 4850 6850
+Wire Wire Line
+	5450 6300 4850 6300
+Wire Notes Line
+	750  10900 3700 10900
+Wire Notes Line
+	3700 7500 3700 5650
+Wire Notes Line
+	750  7500 3700 7500
+Wire Notes Line
+	750  5650 750  7500
+Wire Notes Line
+	3700 5450 3700 4050
+Wire Notes Line
+	750  5450 3700 5450
+Wire Notes Line
+	750  4050 750  5450
+Connection ~ 2200 8700
+Wire Wire Line
+	2200 8700 2200 8800
+Wire Wire Line
+	2650 8700 2650 9200
+Wire Wire Line
+	2200 9200 2200 9700
+Wire Wire Line
+	2200 9300 2650 9300
+Wire Wire Line
+	1300 9500 2650 9500
+Wire Wire Line
+	1300 9400 2650 9400
+Wire Wire Line
+	1950 8700 1950 8800
+Wire Wire Line
+	1300 9600 2650 9600
+Wire Wire Line
+	5150 6850 5150 7000
+Wire Notes Line
+	750  7700 3700 7700
+Connection ~ 14450 7500
+Wire Wire Line
+	14450 7500 14450 7600
+Wire Wire Line
+	14900 7500 14900 8000
+Wire Wire Line
+	14450 8000 14450 8450
+Wire Wire Line
+	14450 8100 14900 8100
+Wire Wire Line
+	13900 8300 14900 8300
+Wire Wire Line
+	13900 8200 14900 8200
+Wire Wire Line
+	14200 7500 14200 7600
+Wire Wire Line
+	8100 6500 7900 6500
+Wire Wire Line
+	7900 6400 8100 6400
+Wire Wire Line
+	8600 6500 8600 6400
+Wire Wire Line
+	9550 8950 10100 8950
+Wire Wire Line
+	10800 5600 10650 5600
+Connection ~ 11300 5800
+Wire Wire Line
+	11450 5800 11300 5800
+Wire Wire Line
+	11300 5600 11300 5850
+Wire Wire Line
+	11250 5400 11450 5400
+Wire Wire Line
+	1200 6650 1200 6600
+Wire Wire Line
+	1750 6800 2200 6800
+Wire Wire Line
+	2350 3650 2350 3700
+Connection ~ 1400 1950
+Wire Wire Line
+	1400 1800 1400 1950
+Wire Wire Line
+	2350 1800 1400 1800
+Wire Wire Line
+	2350 1850 2350 1800
+Connection ~ 12250 7600
+Wire Wire Line
+	12250 7600 12050 7600
+Wire Wire Line
+	4550 3100 4650 3100
+Wire Wire Line
+	4550 2700 5150 2700
+Wire Wire Line
+	4550 2600 4550 3100
+Connection ~ 4900 2300
+Connection ~ 4750 2200
+Wire Wire Line
+	4750 2300 4750 2200
+Wire Notes Line
+	8800 7200 8800 1400
+Wire Notes Line
+	4100 7200 8800 7200
+Wire Notes Line
+	4100 1400 4100 7200
+Wire Notes Line
+	8800 1400 4100 1400
+Wire Wire Line
+	6300 7000 6300 7050
+Wire Wire Line
+	6250 7000 6300 7000
+Wire Notes Line
+	12950 9750 11000 9750
+Wire Notes Line
+	9000 8050 9000 9750
+Wire Notes Line
+	9000 7850 9000 6450
+Wire Notes Line
+	12950 8050 12950 9750
+Wire Notes Line
+	11000 9750 11000 8050
+Wire Notes Line
+	11000 8050 12950 8050
+Wire Notes Line
+	12950 7850 12950 6450
+Wire Notes Line
+	11000 7850 12950 7850
+Wire Notes Line
+	11000 6450 11000 7850
+Wire Notes Line
+	12950 6450 11000 6450
+Wire Notes Line
+	13700 6250 13700 4550
+Wire Notes Line
+	12150 6250 13700 6250
+Wire Notes Line
+	12150 4550 12150 6250
+Wire Notes Line
+	13700 4550 12150 4550
+Wire Notes Line
+	11950 6250 11950 4550
+Wire Notes Line
+	9000 6250 11950 6250
+Wire Notes Line
+	9000 4550 9000 6250
+Wire Notes Line
+	11950 4550 9000 4550
+Wire Notes Line
+	15800 6450 13150 6450
+Wire Notes Line
+	15800 9750 15800 6450
+Wire Wire Line
+	1750 6900 2200 6900
+Wire Wire Line
+	10100 9150 9550 9150
+Wire Wire Line
+	2200 6700 1750 6700
+Connection ~ 12050 7200
+Wire Wire Line
+	11900 7200 12300 7200
+Connection ~ 4950 3450
+Connection ~ 4500 3600
+Wire Wire Line
+	4500 3450 4500 3650
+Wire Wire Line
+	12250 7400 12250 7650
+Wire Wire Line
+	12300 7400 12250 7400
+Connection ~ 8600 6400
+Wire Wire Line
+	8200 10200 8200 10150
+Wire Wire Line
+	7950 10200 8200 10200
+Wire Wire Line
+	8050 10600 8050 10650
+Wire Wire Line
+	7950 10600 8050 10600
+Connection ~ 4650 4300
+Wire Wire Line
+	4600 4300 4600 4350
+Wire Wire Line
+	5050 3350 5450 3350
+Wire Wire Line
+	5050 3100 5050 3350
+Wire Wire Line
+	4900 3450 5450 3450
+Wire Wire Line
+	4500 3600 5450 3600
+Wire Wire Line
+	4600 4300 5450 4300
+Wire Wire Line
+	4650 4200 4650 4300
+Wire Wire Line
+	5050 4200 5450 4200
+Connection ~ 9550 7050
+Connection ~ 10250 7050
+Wire Wire Line
+	10250 7450 10250 7550
+Wire Wire Line
+	9550 7450 9550 7550
+Wire Wire Line
+	9350 7050 9600 7050
+Wire Wire Line
+	10200 7050 10450 7050
+Wire Wire Line
+	12950 5650 13200 5650
+Connection ~ 13050 5650
+Wire Wire Line
+	12400 5750 12400 5950
+Wire Wire Line
+	12550 5750 12400 5750
+Wire Wire Line
+	12550 5650 12550 5750
+Wire Wire Line
+	4550 2200 4550 2150
+Wire Wire Line
+	4550 2200 5450 2200
+Wire Wire Line
+	9850 7200 9850 7300
+Wire Wire Line
+	9950 7200 9950 7300
+Connection ~ 7800 8850
+Connection ~ 7800 8450
+Wire Wire Line
+	7450 8900 7450 8850
+Connection ~ 7550 8850
+Connection ~ 7550 8450
+Wire Wire Line
+	6650 8300 6400 8300
+Wire Wire Line
+	6400 8300 6400 8350
+Wire Wire Line
+	6400 8550 6650 8550
+Wire Wire Line
+	7450 8850 7800 8850
+Wire Wire Line
+	1400 2550 1400 2500
+Wire Wire Line
+	950  2500 1550 2500
+Wire Wire Line
+	950  1950 1550 1950
+Wire Wire Line
+	950  2350 950  2500
+Connection ~ 1400 2500
+Wire Wire Line
+	2050 4650 1750 4650
+Wire Wire Line
+	1750 4650 1750 4700
+Wire Wire Line
+	1200 6600 2200 6600
+Wire Wire Line
+	9700 8850 10100 8850
+Wire Wire Line
+	9700 8850 9700 8900
+Wire Wire Line
+	10100 9050 9550 9050
+Connection ~ 6400 8450
+Wire Wire Line
+	5000 8350 5500 8350
+Wire Wire Line
+	5000 8450 5150 8450
+Wire Wire Line
+	5150 8450 5150 8550
+Wire Wire Line
+	5150 8550 5500 8550
+Wire Wire Line
+	5000 8650 5300 8650
+Wire Wire Line
+	5300 8650 5300 8450
+Wire Wire Line
+	5300 8450 5500 8450
+Wire Wire Line
+	5650 7950 5000 7950
+Wire Wire Line
+	5000 7950 5000 8250
+Wire Wire Line
+	6150 8450 8300 8450
+Wire Wire Line
+	6150 7950 6150 8450
+Wire Wire Line
+	4700 2400 4700 2750
+Wire Wire Line
+	4700 2400 5450 2400
+Connection ~ 4550 2700
+Wire Wire Line
+	4750 2300 5450 2300
+Wire Wire Line
+	5150 2700 5150 2500
+Wire Wire Line
+	5150 2500 5450 2500
+Connection ~ 4700 2700
+Connection ~ 4900 2700
+Wire Notes Line
+	8800 7400 4100 7400
+Wire Notes Line
+	4100 7400 4100 9350
+Wire Notes Line
+	4100 9350 8800 9350
+Wire Notes Line
+	8800 9350 8800 7400
+Wire Notes Line
+	6950 9550 6950 10900
+Wire Notes Line
+	6950 10900 8800 10900
+Wire Notes Line
+	8800 10900 8800 9550
+Wire Notes Line
+	8800 9550 6950 9550
+Wire Notes Line
+	3900 11150 3900 1200
+Wire Notes Line
+	3700 7700 3700 10900
+Wire Notes Line
+	3700 5650 750  5650
+Wire Notes Line
+	3700 4050 750  4050
+Wire Notes Line
+	3700 3850 3700 1400
+Wire Notes Line
+	750  1400 750  3850
+Wire Notes Line
+	750  3850 3700 3850
+Wire Notes Line
+	3700 1400 750  1400
+Wire Wire Line
+	10650 5600 10650 5750
+Wire Wire Line
+	11250 5400 11250 5300
+Wire Wire Line
+	9850 5400 9400 5400
+Wire Wire Line
+	9400 5800 9550 5800
+Wire Wire Line
+	9550 5800 9550 5500
+Wire Wire Line
+	9550 5500 9850 5500
+Wire Wire Line
+	9400 5850 9400 5800
+Wire Wire Line
+	5050 3500 5050 3650
+Connection ~ 5050 3600
+Wire Wire Line
+	5050 3650 5450 3650
+Wire Wire Line
+	5450 3900 5300 3900
+Wire Wire Line
+	5300 3900 5300 3800
+Connection ~ 5300 3800
+Wire Wire Line
+	5450 3450 5450 3500
+Wire Wire Line
+	14050 7500 14050 7600
+Connection ~ 14200 7500
+Wire Wire Line
+	14200 8100 14200 8200
+Connection ~ 14200 8200
+Wire Wire Line
+	14050 8100 14050 8300
+Connection ~ 14050 8300
+Wire Wire Line
+	14900 7500 14050 7500
+Wire Wire Line
+	14900 8400 13900 8400
+Wire Wire Line
+	13900 8400 13900 9050
+Connection ~ 13900 8950
+Connection ~ 14450 8100
+Wire Wire Line
+	14450 8950 13900 8950
+Wire Wire Line
+	1750 8700 2650 8700
+Wire Wire Line
+	1750 8700 1750 8800
+Connection ~ 1950 8700
+Wire Wire Line
+	1950 9300 1950 9400
+Connection ~ 1950 9400
+Wire Wire Line
+	1750 9300 1750 9500
+Connection ~ 1750 9500
+Connection ~ 2200 9300
+Wire Wire Line
+	1300 9600 1300 10250
+Wire Wire Line
+	1300 10200 2200 10200
+Connection ~ 1300 10200
+Wire Notes Line
+	750  7700 750  10900
+$Comp
+L 2PIN P12
+U 1 1 570E8C20
+P 11250 8650
+F 0 "P12" H 11200 8850 60  0000 C CNN
+F 1 "2PIN" H 11200 8450 60  0000 C CNN
+F 2 "prettylib:Pin_Header_1x02" H 11250 8650 60  0001 C CNN
+F 3 "" H 11250 8650 60  0000 C CNN
+	1    11250 8650
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	11550 9950 9000 9950
+Wire Notes Line
+	11550 10900 11550 9950
+Wire Notes Line
+	9000 10900 11550 10900
+Wire Notes Line
+	9000 9950 9000 10900
+Wire Wire Line
+	9950 10300 9950 10600
+Wire Wire Line
+	9950 10300 9900 10300
+Wire Wire Line
+	10550 10300 10550 10600
+Wire Wire Line
+	10550 10300 10600 10300
+Connection ~ 9950 10400
+Connection ~ 10550 10400
+Wire Wire Line
+	10950 10750 10950 10600
+Wire Wire Line
+	9550 10750 10950 10750
+Wire Wire Line
+	9550 10750 9550 10600
+Wire Wire Line
+	10250 10750 10250 10800
+Connection ~ 10250 10750
+Text Notes 9100 10150 0    118  ~ 24
+Rotary Encoder (Optional)
+Text Label 10600 10300 0    60   ~ 0
+ENCB
+Text Label 9900 10300 2    60   ~ 0
+ENCA
+$Comp
+L R R72
+U 1 1 571F9ACC
+P 10800 10400
+F 0 "R72" V 10880 10400 40  0000 C CNN
+F 1 "10k" V 10807 10401 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 10730 10400 30  0001 C CNN
+F 3 "" H 10800 10400 30  0000 C CNN
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" V 10800 10400 60  0001 C CNN "Description"
+F 5 "RC0805FR-0710KL" V 10800 10400 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10.0KCRCT-ND/730482" V 10800 10400 60  0001 C CNN "URL"
+F 7 "Yageo" V 10800 10400 60  0001 C CNN "Vendor"
+	1    10800 10400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R71
+U 1 1 571F9ACD
+P 9700 10400
+F 0 "R71" V 9780 10400 40  0000 C CNN
+F 1 "10k" V 9707 10401 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 9630 10400 30  0001 C CNN
+F 3 "" H 9700 10400 30  0000 C CNN
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" V 9700 10400 60  0001 C CNN "Description"
+F 5 "RC0805FR-0710KL" V 9700 10400 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/yageo/RC0805FR-0710KL/311-10.0KCRCT-ND/730482" V 9700 10400 60  0001 C CNN "URL"
+F 7 "Yageo" V 9700 10400 60  0001 C CNN "Vendor"
+	1    9700 10400
+	0    1    1    0   
+$EndComp
+$Comp
+L VSS #PWR046
+U 1 1 571F9ACE
+P 10250 10800
+F 0 "#PWR046" H 10250 10800 30  0001 C CNN
+F 1 "VSS" H 10250 10730 30  0000 C CNN
+F 2 "" H 10250 10800 60  0000 C CNN
+F 3 "" H 10250 10800 60  0000 C CNN
+	1    10250 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CT C11
+U 1 1 571F9ACF
+P 10750 10600
+F 0 "C11" H 10750 10700 40  0000 L CNN
+F 1 "1uF" H 10756 10515 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 10788 10450 30  0001 C CNN
+F 3 "" H 10750 10600 60  0000 C CNN
+F 4 "CAP CER 1UF 10V 10% X7R 0805" H 10450 10500 60  0001 C CNN "Description"
+F 5 "CL21B105KPFNNNE" H 10450 10500 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B105KPFNNNE/1276-1275-1-ND/3889361" H 10450 10500 60  0001 C CNN "URL"
+F 7 "Samsung" H 10450 10500 60  0001 C CNN "Vendor"
+	1    10750 10600
+	0    -1   1    0   
+$EndComp
+$Comp
+L CT C10
+U 1 1 571F9AD0
+P 9750 10600
+F 0 "C10" H 9750 10700 40  0000 L CNN
+F 1 "1uF" H 9756 10515 40  0000 L CNN
+F 2 "prettylib:SMD_0805" H 9788 10450 30  0001 C CNN
+F 3 "" H 9750 10600 60  0000 C CNN
+F 4 "CAP CER 1UF 10V 10% X7R 0805" H 9450 10500 60  0001 C CNN "Description"
+F 5 "CL21B105KPFNNNE" H 9450 10500 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/CL21B105KPFNNNE/1276-1275-1-ND/3889361" H 9450 10500 60  0001 C CNN "URL"
+F 7 "Samsung" H 9450 10500 60  0001 C CNN "Vendor"
+	1    9750 10600
+	0    1    1    0   
+$EndComp
+$Comp
+L ENCODER S2
+U 1 1 571F9AD1
+P 10250 10550
+F 0 "S2" V 10200 10600 50  0000 C CNN
+F 1 "ENCODER" V 10500 10550 50  0000 C CNN
+F 2 "prettylib:ENCODER_12MM" H 10500 10550 60  0001 C CNN
+F 3 "" H 10500 10550 60  0000 C CNN
+F 4 "ENCODER ROTARY" V 10250 10550 60  0001 C CNN "Description"
+F 5 "PEC12R-4017F-N0024" V 10250 10550 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/bourns-inc/PEC12R-4017F-N0024/PEC12R-4017F-N0024-ND/4499643" V 10250 10550 60  0001 C CNN "URL"
+F 7 "Bourns Inc" V 10250 10550 60  0001 C CNN "Vendor"
+	1    10250 10550
+	0    -1   -1   0   
+$EndComp
+Text Label 5450 5900 2    60   ~ 0
+ENCA
+Text Label 5450 5600 2    60   ~ 0
+ENCB
+Text Label 7900 6200 0    60   ~ 0
+TX
+Text Label 7900 6300 0    60   ~ 0
+RX
+$Comp
+L 74HC138 U4
+U 1 1 571FFC1A
+P 4900 5050
+F 0 "U4" H 4750 5500 60  0000 C CNN
+F 1 "74HC138" H 5150 5500 60  0000 C CNN
+F 2 "prettylib:SO-16-N" H 4900 5050 60  0001 C CNN
+F 3 "" H 4900 5050 60  0000 C CNN
+F 4 "IC DECODER/DEMUX 3-8 LINE 16SOIC" H 4900 5050 60  0001 C CNN "Description"
+F 5 "74HC138D,653" H 4900 5050 60  0001 C CNN "Product"
+F 6 "http://www.digikey.com/product-detail/en/nxp-semiconductors/74HC138D,653/568-1397-1-ND/763375" H 4900 5050 60  0001 C CNN "URL"
+F 7 "NXP" H 4900 5050 60  0001 C CNN "Vendor"
+	1    4900 5050
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 4500 5400
+$Comp
+L VSS #PWR047
+U 1 1 5720287A
+P 4900 5550
+F 0 "#PWR047" H 4900 5550 30  0001 C CNN
+F 1 "VSS" H 4900 5480 30  0000 C CNN
+F 2 "" H 4900 5550 60  0000 C CNN
+F 3 "" H 4900 5550 60  0000 C CNN
+	1    4900 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR048
+U 1 1 57202904
+P 4900 4550
+F 0 "#PWR048" H 4900 4640 20  0001 C CNN
+F 1 "+5V" H 4900 4640 30  0000 C CNN
+F 2 "" H 4900 4550 60  0000 C CNN
+F 3 "" H 4900 4550 60  0000 C CNN
+	1    4900 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR049
+U 1 1 57202A13
+P 5400 5250
+F 0 "#PWR049" H 5400 5340 20  0001 C CNN
+F 1 "+5V" H 5400 5340 30  0000 C CNN
+F 2 "" H 5400 5250 60  0000 C CNN
+F 3 "" H 5400 5250 60  0000 C CNN
+	1    5400 5250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5250 5300 5250
+Wire Wire Line
+	5300 4700 5450 4700
+Wire Wire Line
+	5450 4800 5300 4800
+Wire Wire Line
+	5300 4900 5450 4900
+Wire Wire Line
+	5450 5000 5300 5000
+Wire Wire Line
+	5300 5000 5300 5050
+Wire Wire Line
+	5300 5150 5350 5150
+Wire Wire Line
+	5350 5150 5350 5000
+Connection ~ 5350 5000
+$Comp
+L +5V #PWR050
+U 1 1 571E9F77
+P 11050 10400
+F 0 "#PWR050" H 11050 10490 20  0001 C CNN
+F 1 "+5V" H 11050 10490 30  0000 C CNN
+F 2 "" H 11050 10400 60  0000 C CNN
+F 3 "" H 11050 10400 60  0000 C CNN
+	1    11050 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR051
+U 1 1 571EA63A
+P 9450 10400
+F 0 "#PWR051" H 9450 10490 20  0001 C CNN
+F 1 "+5V" H 9450 10490 30  0000 C CNN
+F 2 "" H 9450 10400 60  0000 C CNN
+F 3 "" H 9450 10400 60  0000 C CNN
+	1    9450 10400
+	1    0    0    -1  
+$EndComp
+Text Label 12450 8750 0    60   ~ 0
+RX
+Text Label 12450 8550 0    60   ~ 0
+TX
+$Comp
+L 2PIN P13
+U 1 1 571EBC69
+P 12250 8650
+F 0 "P13" H 12200 8850 60  0000 C CNN
+F 1 "2PIN" H 12200 8450 60  0000 C CNN
+F 2 "prettylib:Pin_Header_1x02" H 12250 8650 60  0001 C CNN
+F 3 "" H 12250 8650 60  0000 C CNN
+	1    12250 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3800 5450 3800
+$EndSCHEMATC
