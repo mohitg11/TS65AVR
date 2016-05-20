@@ -1,4 +1,12 @@
-Cmp-Mod V01 Created by PcbNew   date = 5/1/2016 10:42:03 AM
+Cmp-Mod V01 Created by PcbNew   date = 5/21/2016 1:04:55 AM
+
+BeginCmp
+TimeStamp = 571E29B0
+Path = /549878F0/571D9DC1
+Reference = U1;
+ValeurCmp = Atmega32u4;
+IdModule  = prettylib:TQFP44;
+EndCmp
 
 BeginCmp
 TimeStamp = 571E5AB7
@@ -2937,14 +2945,6 @@ IdModule  = prettylib:USB3_AFEMALE_MOD;
 EndCmp
 
 BeginCmp
-TimeStamp = 5707BB97
-Path = /549878F0/56E086BA
-Reference = P1;
-ValeurCmp = USB_CONN;
-IdModule  = prettylib:USB_Micro-B;
-EndCmp
-
-BeginCmp
 TimeStamp = 5707BBCC
 Path = /549878F0/56D951DE
 Reference = P3;
@@ -3089,14 +3089,6 @@ IdModule  = prettylib:Fuse_SMD1206;
 EndCmp
 
 BeginCmp
-TimeStamp = 571E27C9
-Path = /549878F0/56F1A7A6
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = prettylib:JUMPER_SMD_2;
-EndCmp
-
-BeginCmp
 TimeStamp = 571E27D3
 Path = /549878F0/56E8A9B7
 Reference = L2;
@@ -3149,14 +3141,6 @@ TimeStamp = 571E28B1
 Path = /549878F0/56E102C8
 Reference = R6;
 ValeurCmp = 2.2k;
-IdModule  = prettylib:SMD_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 571E28BB
-Path = /549878F0/56E18C9E
-Reference = R9;
-ValeurCmp = 100k;
 IdModule  = prettylib:SMD_0805;
 EndCmp
 
@@ -3229,14 +3213,6 @@ TimeStamp = 571E2915
 Path = /549878F0/56DA9DB7
 Reference = R33;
 ValeurCmp = 100;
-IdModule  = prettylib:SMD_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = 571E291F
-Path = /549878F0/56FBC6EE
-Reference = R36;
-ValeurCmp = 1k;
 IdModule  = prettylib:SMD_0805;
 EndCmp
 
@@ -3401,30 +3377,6 @@ IdModule  = prettylib:SOT-23-5;
 EndCmp
 
 BeginCmp
-TimeStamp = 571E29B0
-Path = /549878F0/571D9DC1
-Reference = U1;
-ValeurCmp = Atmega32u4;
-IdModule  = prettylib:TQFP44;
-EndCmp
-
-BeginCmp
-TimeStamp = 56B8CAFA
-Path = /56CA654B
-Reference = BREAKHOLES2;
-ValeurCmp = MISC;
-IdModule  = prettylib:BreakHoles;
-EndCmp
-
-BeginCmp
-TimeStamp = 56B8C9BE
-Path = /56CA44F1
-Reference = BREAKHOLES1;
-ValeurCmp = MISC;
-IdModule  = prettylib:BreakHoles;
-EndCmp
-
-BeginCmp
 TimeStamp = 57231DC9
 Path = /54B2C0DD/572346B8
 Reference = LEDI3_2;
@@ -3470,6 +3422,62 @@ Path = /54B2C0DD/56DF4929
 Reference = LEDI1;
 ValeurCmp = LED;
 IdModule  = prettylib:LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 573A344B
+Path = /549878F0/56E18C9E
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = prettylib:SMD_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 573A3985
+Path = /549878F0/56F1A7A6
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = prettylib:JUMPER_SMD_3;
+EndCmp
+
+BeginCmp
+TimeStamp = 56B8C9BE
+Path = /56CA44F1
+Reference = BREAKHOLES1;
+ValeurCmp = MISC;
+IdModule  = prettylib:BreakHoles;
+EndCmp
+
+BeginCmp
+TimeStamp = 56B8CAFA
+Path = /56CA654B
+Reference = BREAKHOLES2;
+ValeurCmp = MISC;
+IdModule  = prettylib:BreakHoles;
+EndCmp
+
+BeginCmp
+TimeStamp = 573F49C3
+Path = /573F8798
+Reference = BREAKHOLES3;
+ValeurCmp = MISC;
+IdModule  = prettylib:BreakHoles;
+EndCmp
+
+BeginCmp
+TimeStamp = 573F49CC
+Path = /573F8792
+Reference = BREAKHOLES4;
+ValeurCmp = MISC;
+IdModule  = prettylib:BreakHoles;
+EndCmp
+
+BeginCmp
+TimeStamp = 5707BB97
+Path = /549878F0/56E086BA
+Reference = P1;
+ValeurCmp = USB_CONN;
+IdModule  = prettylib:USB_Micro-B;
 EndCmp
 
 EndListe

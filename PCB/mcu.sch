@@ -8,8 +8,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
 Title "TS65"
-Date "2016-05-01"
-Rev "Rev 0.6"
+Date "2016-05-17"
+Rev "Rev 0.7"
 Comp "MOZ"
 Comment1 ""
 Comment2 ""
@@ -778,29 +778,29 @@ XTAL1
 Text Label 9350 7050 2    60   ~ 0
 XTAL2
 $Comp
-L JUMPER JP1
+L JUMPER3 JP1
 U 1 1 56F1A7A6
-P 5450 7000
-F 0 "JP1" H 5450 7150 60  0000 C CNN
-F 1 "JUMPER" H 5450 6920 40  0000 C CNN
-F 2 "prettylib:JUMPER_SMD_2" H 5450 7000 60  0001 C CNN
-F 3 "" H 5450 7000 60  0000 C CNN
-F 4 "Jumper to pull down HWBE" H 5450 7000 60  0001 C CNN "Description"
-	1    5450 7000
-	-1   0    0    -1  
+P 4700 6800
+F 0 "JP1" H 4700 6950 60  0000 C CNN
+F 1 "JUMPER" H 4850 6700 40  0000 C CNN
+F 2 "prettylib:JUMPER_SMD_3" H 4700 6800 60  0001 C CNN
+F 3 "" H 4700 6800 60  0000 C CNN
+F 4 "Jumper to pull down HWBE" H 4700 6800 60  0001 C CNN "Description"
+	1    4700 6800
+	1    0    0    1   
 $EndComp
 $Comp
 L VSS #PWR022
 U 1 1 56F1BFE6
-P 6300 7050
-F 0 "#PWR022" H 6300 7050 30  0001 C CNN
-F 1 "VSS" H 6300 6980 30  0000 C CNN
-F 2 "" H 6300 7050 60  0000 C CNN
-F 3 "" H 6300 7050 60  0000 C CNN
-	1    6300 7050
+P 5000 6850
+F 0 "#PWR022" H 5000 6850 30  0001 C CNN
+F 1 "VSS" H 5000 6780 30  0000 C CNN
+F 2 "" H 5000 6850 60  0000 C CNN
+F 3 "" H 5000 6850 60  0000 C CNN
+	1    5000 6850
 	-1   0    0    -1  
 $EndComp
-Text Notes 5700 6900 0    59   ~ 0
+Text Notes 4450 7100 0    59   ~ 0
 HWBE Jumper
 Text Notes 8150 6700 0    59   ~ 0
 I2C Pullups
@@ -864,17 +864,17 @@ $EndComp
 $Comp
 L R R9
 U 1 1 56E18C9E
-P 4900 7000
-F 0 "R9" V 4980 7000 40  0000 C CNN
-F 1 "100k" V 4907 7001 40  0000 C CNN
-F 2 "prettylib:SMD_0805" V 4830 7000 30  0001 C CNN
-F 3 "" H 4900 7000 30  0000 C CNN
-F 4 "RES SMD 100K OHM 1% 1/8W 0805" V 4900 7000 60  0001 C CNN "Description"
-F 5 "RC2012F104CS" V 4900 7000 60  0001 C CNN "Product"
-F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F104CS/1276-3512-1-ND/3903615" V 4900 7000 60  0001 C CNN "URL"
-F 7 "Samsung" V 4900 7000 60  0001 C CNN "Vendor"
-	1    4900 7000
-	0    1    -1   0   
+P 5000 6300
+F 0 "R9" V 5080 6300 40  0000 C CNN
+F 1 "10k" V 5007 6301 40  0000 C CNN
+F 2 "prettylib:SMD_0805" V 4930 6300 30  0001 C CNN
+F 3 "" H 5000 6300 30  0000 C CNN
+F 4 "RES SMD 10K OHM 1% 1/8W 0805" V 5000 6300 60  0001 C CNN "Description"
+F 5 "RC2012F103CS" V 5000 6300 60  0001 C CNN "Product"
+F 6 "~" V 5000 6300 60  0001 C CNN "URL"
+F 7 "Samsung" V 5000 6300 60  0001 C CNN "Vendor"
+	1    5000 6300
+	0    -1   1    0   
 $EndComp
 $Comp
 L R R13_1
@@ -1169,21 +1169,6 @@ F 7 "Samsung" V 1750 9050 60  0001 C CNN "Vendor"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R36
-U 1 1 56FBC6EE
-P 6000 7000
-F 0 "R36" V 6080 7000 40  0000 C CNN
-F 1 "1k" V 6007 7001 40  0000 C CNN
-F 2 "prettylib:SMD_0805" V 5930 7000 30  0001 C CNN
-F 3 "" H 6000 7000 30  0000 C CNN
-F 4 "RES SMD 1K OHM 1% 1/8W 0805" V 6000 7000 60  0001 C CNN "Description"
-F 5 "RC2012F102CS" V 6000 7000 60  0001 C CNN "Product"
-F 6 "http://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/RC2012F102CS/1276-5272-1-ND/3968244" V 6000 7000 60  0001 C CNN "URL"
-F 7 "Samsung" V 6000 7000 60  0001 C CNN "Vendor"
-	1    6000 7000
-	0    1    1    0   
-$EndComp
-$Comp
 L VSS #PWR028
 U 1 1 57098C30
 P 5050 8700
@@ -1343,12 +1328,12 @@ $EndComp
 $Comp
 L +5V #PWR036
 U 1 1 571EF3AD
-P 4650 7000
-F 0 "#PWR036" H 4650 7090 20  0001 C CNN
-F 1 "+5V" H 4650 7090 30  0000 C CNN
-F 2 "" H 4650 7000 60  0000 C CNN
-F 3 "" H 4650 7000 60  0000 C CNN
-	1    4650 7000
+P 4400 6750
+F 0 "#PWR036" H 4400 6840 20  0001 C CNN
+F 1 "+5V" H 4400 6840 30  0000 C CNN
+F 2 "" H 4400 6750 60  0000 C CNN
+F 3 "" H 4400 6750 60  0000 C CNN
+	1    4400 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1473,12 +1458,6 @@ Wire Notes Line
 	9000 6450 10800 6450
 Wire Notes Line
 	13150 9750 15800 9750
-Wire Wire Line
-	4850 6850 5150 6850
-Wire Wire Line
-	4850 6300 4850 6850
-Wire Wire Line
-	5450 6300 4850 6300
 Wire Notes Line
 	750  10900 3700 10900
 Wire Notes Line
@@ -1510,8 +1489,6 @@ Wire Wire Line
 	1950 8700 1950 8800
 Wire Wire Line
 	1300 9600 2650 9600
-Wire Wire Line
-	5150 6850 5150 7000
 Wire Notes Line
 	750  7700 3700 7700
 Connection ~ 14450 7500
@@ -1581,9 +1558,9 @@ Wire Notes Line
 Wire Notes Line
 	8800 1400 4100 1400
 Wire Wire Line
-	6300 7000 6300 7050
+	5000 6650 5000 6850
 Wire Wire Line
-	6250 7000 6300 7000
+	4950 6800 5000 6800
 Wire Notes Line
 	12950 9750 11000 9750
 Wire Notes Line
@@ -2104,4 +2081,18 @@ F 3 "" H 12250 8650 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	5300 3800 5450 3800
+Wire Wire Line
+	4400 6750 4400 6800
+Wire Wire Line
+	4400 6800 4450 6800
+Wire Wire Line
+	4700 6700 4700 6300
+Wire Wire Line
+	4700 6300 4750 6300
+Wire Wire Line
+	5000 6650 4700 6650
+Connection ~ 4700 6650
+Connection ~ 5000 6800
+Wire Wire Line
+	5250 6300 5450 6300
 $EndSCHEMATC
