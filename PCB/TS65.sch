@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:TS65-rescue
 LIBS:TS65
-LIBS:TS65-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
