@@ -1,5 +1,5 @@
-# TS65 - ARM Based
-The Split 65% Keyboard - ARM Based
+# TS65 - AVR Based
+The Split 65% Keyboard - AVR Based
 
 This is a custom 65% style keyboard that is split in the middle to provide a more ergonomic option whilst not being drastically different from the standard stagger used on keyboards
 
